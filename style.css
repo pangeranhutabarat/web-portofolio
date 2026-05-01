@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4B5C6;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    position: sticky;
+    top: 0;
+    background-color:#F4B5C6;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: #837676;
+}
+
+.navbar .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: #888888;
+}
+
+.section-1 {
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+
+.section-1 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: fantasy;
+}
+
+.section-2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+    height:auto;
+    width: 900px;
+
+}
+
+.arrow {
+    font-size: 40px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+    user-select: none;
+}
+
+.arrow:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.section-2 h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+
+.section-3 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.subscription-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group label {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.form-group input[type="email"],
+.form-group select {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #444;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="email"]:focus,
+.form-group select:focus {
+    border-color: #ffffff;
+}
+
+
+.form-group select option {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.subscribe p {
+    font-size: 12px;
+    color: #aaaaaa;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.checkbox-item input[type="checkbox"] {
+    accent-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.checkbox-item label {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.Email-sent {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Email-sent p {
+    font-size: 9px;
+    color: #666666;
+    text-transform: none;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+    padding: 15px 50px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 60px 20px 40px;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #666666;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
